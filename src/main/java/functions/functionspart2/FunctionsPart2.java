@@ -20,7 +20,7 @@ public class FunctionsPart2 {
         Coche miCoche = new Coche();
         miCoche.AgregarPuerta();
        
-        System.out.println(miCoche.puertas);
+        System.out.println("El número de puertas del coche es:" + miCoche.puertas);
     }
     
         public static class Coche{
